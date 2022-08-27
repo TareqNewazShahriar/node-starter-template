@@ -1,26 +1,37 @@
 {
-  "name": "node-starter-template",
-  "version": "1.0.0",
-  "description": "Node project starter template with hapi, eslint.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TareqNewazShahriar/node-starter-template.git"
-  },
-  "keywords": [
-    "node",
-    "tempalte",
-    "project",
-    "eslint",
-    "hapi"
-  ],
-  "author": "github/TareqNewazShahriar",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TareqNewazShahriar/node-starter-template/issues"
-  },
-  "homepage": "https://github.com/TareqNewazShahriar/node-starter-template#readme"
+   "name": "node-starter-template",
+   "version": "1.0.0",
+   "description": "Node project starter template with hapi, eslint.",
+   "main": "index.js",
+   "scripts": {
+      "dev": "nodemon index.js",
+      "lint": "eslint .",
+      "lint:fix": "eslint . --fix"
+   },
+   "dependencies": {
+      "express": "^4.18.1"
+   },
+   "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "^5.33.0",
+      "@typescript-eslint/parser": "^5.33.0",
+      "eslint": "^8.21.0",
+      "nodemon": "^2.0.19"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TareqNewazShahriar/node-starter-template.git"
+   },
+   "keywords": [
+      "node",
+      "tempalte",
+      "project",
+      "eslint",
+      "hapi"
+   ],
+   "author": "github/TareqNewazShahriar",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/TareqNewazShahriar/node-starter-template/issues"
+   },
+   "homepage": "https://github.com/TareqNewazShahriar/node-starter-template#readme"
 }
