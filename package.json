@@ -1,0 +1,26 @@
+{
+  "name": "node-starter-template",
+  "version": "1.0.0",
+  "description": "Node project starter template with hapi, eslint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TareqNewazShahriar/node-starter-template.git"
+  },
+  "keywords": [
+    "node",
+    "tempalte",
+    "project",
+    "eslint",
+    "hapi"
+  ],
+  "author": "github/TareqNewazShahriar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TareqNewazShahriar/node-starter-template/issues"
+  },
+  "homepage": "https://github.com/TareqNewazShahriar/node-starter-template#readme"
+}
