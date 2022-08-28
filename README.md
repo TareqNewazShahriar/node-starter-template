@@ -51,7 +51,7 @@ On code `require('something')`.
 **Shoot**: add rules to your .eslintrc.json (or whatever file type you are using).
 
 ```json
-rules: {
+"rules": {
  "@typescript-eslint/no-var-requires": "off"
 }
 ```
