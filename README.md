@@ -31,17 +31,12 @@ Note about getting rid of semicolon (;): Javascript has this ability. Without an
 
 
 ## Notes
-### To run a npm package command directly from command
+### To run a npm package command directly from command. For example
   ```
-  node_modules\\.bin\\<command> <argument> // e.g.: 
+  node_modules\\.bin\\eslint .
   ```
-
-  Example
-  ```
-  node_modules\\.bin\\nodemon index.js
-  ```
-  But when added in `npm script`, full path is not needed, only the `command agrument` is sufficient.  
-  N.b. if full path command is not working, check your command application, try using simple command line/shell application.
+  But when added in `npm script`, full path is not needed.  
+  N.b. if full path command is not working, check your command line application, try using simple command line/shell application.
 
 
 ## Frequently shooted troubles (troubleshooting)
