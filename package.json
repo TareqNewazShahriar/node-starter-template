@@ -27,7 +27,7 @@
       "tempalte",
       "project",
       "eslint",
-      "hapi"
+      "express"
    ],
    "author": "github/TareqNewazShahriar",
    "license": "MIT",
