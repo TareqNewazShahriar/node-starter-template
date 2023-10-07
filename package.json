@@ -1,7 +1,7 @@
 {
    "name": "node-starter-template",
    "version": "1.0.0",
-   "description": "Node project starter template with hapi, eslint.",
+   "description": "Node project starter template with typescript, express.js, eslint and hot-reload package.",
    "main": "index.js",
    "scripts": {
       "dev": "nodemon index.js",
